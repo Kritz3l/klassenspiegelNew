@@ -6,13 +6,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,400;0,500;1,400;1,500;1,700&display=swap"
           rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <!--<link rel="icon" href="favicon.png" type="image/png">-->
     <script src="script.js"></script>
 </head>
 <body>
 <div class="header">
-    <p class="siteTitle">Klassenspiegel, MEMA6A</p>
+    <p class="siteTitle">Klassenspiegel, MEMA6</p>
     <div class="containerMenu">
-        <p class="menuKontext">Zur Klasse MEMA8A</p>
+        <p class="menuKontext">Zur Klasse MEMA8</p>
         <svg class="svgMenu" viewBox="0 0 110 100" fill="none" onclick="openMenu8()">
             <rect x="10" y="43" width="80" height="15" fill="#E03C3B"></rect>
             <path d="M70 20 L 95 50 L 70 80" fill="none" stroke="#E03C3B" stroke-width="15" stroke-linecap="butt"></path>
@@ -29,52 +30,52 @@
         <rect x="285" y="329" width="150" height="218" fill="#E1D2C9"></rect>
         <rect y="329" width="85" height="218" fill="#E1D2C9"></rect>
         <rect x="635" y="329" width="85" height="218" fill="#E1D2C9"></rect>
-        <circle cx="56" cy="58" r="17" fill="#FAF2EF"></circle>
-        <circle cx="312" cy="58" r="17" fill="#FAF2EF"></circle>
-        <circle cx="406" cy="58" r="17" fill="#FAF2EF"></circle>
-        <circle cx="661" cy="58" r="17" fill="#FAF2EF"></circle>
-        <circle cx="56" cy="387" r="17" fill="#FAF2EF"></circle>
-        <circle cx="312" cy="387" r="17" fill="#FAF2EF"></circle>
-        <circle cx="406" cy="387" r="17" fill="#FAF2EF"></circle>
-        <circle cx="661" cy="387" r="17" fill="#FAF2EF"></circle>
-        <circle cx="56" cy="160" r="17" fill="#FAF2EF"></circle>
-        <circle cx="312" cy="160" r="17" fill="#FAF2EF"></circle>
-        <circle cx="406" cy="160" r="17" fill="#FAF2EF"></circle>
-        <circle cx="661" cy="160" r="17" fill="#FAF2EF"></circle>
-        <circle cx="56" cy="489" r="17" fill="#FAF2EF"></circle>
-        <circle cx="312" cy="489" r="17" fill="#FAF2EF"></circle>
-        <circle cx="406" cy="489" r="17" fill="#FAF2EF"></circle>
-        <circle cx="661" cy="489" r="17" fill="#FAF2EF"></circle>
+        <circle onclick="getUser(0)" class="places" id="0" cx="56" cy="58" r="17"></circle>
+        <circle onclick="getUser(1)" class="places" id="1" cx="312" cy="58" r="17"></circle>
+        <circle onclick="getUser(2)" class="places" id="2" cx="406" cy="58" r="17"></circle>
+        <circle onclick="getUser(3)" class="places" id="3" cx="661" cy="58" r="17"></circle>
+        <circle onclick="getUser(8)" class="places" id="8" cx="56" cy="387" r="17"></circle>
+        <circle onclick="getUser(9)" class="places" id="9" cx="312" cy="387" r="17"></circle>
+        <circle onclick="getUser(10)" class="places" id="10" cx="406" cy="387" r="17"></circle>
+        <circle onclick="getUser(11)" class="places" id="11" cx="661" cy="387" r="17"></circle>
+        <circle onclick="getUser(4)" class="places" id="4" cx="56" cy="160" r="17"></circle>
+        <circle onclick="getUser(5)" class="places" id="5" cx="312" cy="160" r="17"></circle>
+        <circle onclick="getUser(6)" class="places" id="6" cx="406" cy="160" r="17"></circle>
+        <circle onclick="getUser(7)" class="places" id="7" cx="661" cy="160" r="17"></circle>
+        <circle onclick="getUser(12)" class="places" id="12" cx="56" cy="489" r="17"></circle>
+        <circle onclick="getUser(13)" class="places" id="13" cx="312" cy="489" r="17"></circle>
+        <circle onclick="getUser(14)" class="places" id="14" cx="406" cy="489" r="17"></circle>
+        <circle onclick="getUser(15)" class="places" id="15" cx="661" cy="489" r="17"></circle>
     </svg>
 </div>
 <div class="infoPanel" id="infoPanel">
     <div class="upperPanel">
-        <p class="studentName" id="studentName">Carla Widmer</p>
-        <p class="studentId" id="studentId">57808</p>
+        <p class="studentName" id="studentName">Vorname Name</p>
+        <p class="studentId" id="studentId">Studenten Id</p>
         <button class="btnAbsenz" onclick="absenzErfassen()">Absenzmanager</button>
-        <p class="zsmfsAbsenzen">Entschuldigt: 2</p>
+        <p class="zsmfsAbsenzen">Entschuldigt: 0</p>
         <p class="zsmfsAbsenzen">Unentschuldigt: 0</p>
     </div>
     <div class="lowerPanel">
         <div class="innerPanel">
             <p class="lPTitle">Geburtsdatum</p>
-            <p class="lPInfo" id="birthday">10.05.2001</p>
+            <p class="lPInfo" id="birthday"></p>
 
             <p class="lPTitle">Adresse</p>
-            <p class="lPInfo" id="address">Studaweg 10, 7430 Thusis</p>
+            <p class="lPInfo" id="address"></p>
 
             <p class="lPTitle">Mobile</p>
-            <p class="lPInfo" id="mobile">078 920 01 22</p>
+            <p class="lPInfo" id="mobile"></p>
 
             <p class="lPTitle">Mail</p>
-            <p class="lPInfo" id="mail">carlabarbarawid@gmail.com</p>
+            <p class="lPInfo" id="mail"></p>
 
             <p class="lPTitle">Betrieb</p>
-            <p class="lPInfo" id="company">Würth ITensis AG</p>
+            <p class="lPInfo" id="company"></p>
 
             <p class="lPTitle">Lehrlingsverantwortlicher</p>
-            <p class="lPInfo" id="llvName">Samuel Marfurt</p>
-            <p class="lPInfo" id="llvMail">samuel.marfurt@wuerth-itensis.com</p>
+            <p class="lPInfo" id="llvName"></p>
+            <p class="lPInfo" id="llvMail"></p>
         </div>
     </div>
 </div>

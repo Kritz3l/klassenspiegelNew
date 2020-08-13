@@ -1,4 +1,6 @@
 const express = require('express');
+const db = require('./db.js');
+
 const app = express();
 const port = 8081;
 
@@ -8,6 +10,17 @@ app.listen(port, () => {
 app.use(express.static(__dirname + '/public'));
 
 app.get('/', (req, res) => {
-    //redirect requests to 8081 to mema6a.html
+    //redirect req to 8081 to mema6a.html
     res.redirect('mema6a.html')
+});
+
+app.get('/lernende', (req, res) => {
+    let lernende = db.getLernende();
+    res.send(lernende);
+    res.end();
+});
+app.get('/klasse', (req, res) => {
+    let klasse = db.getClass();
+    res.send(klasse);
+    res.end();
 });

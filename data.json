@@ -1,0 +1,461 @@
+{
+  "lernende": [
+    {
+      "id": 56743,
+      "vorname": "Melvin",
+      "nachname": "Weninger",
+      "mobile": "079 901 23 45",
+      "geburtsdatum": "26.08.1995",
+      "email": "melvin.csc@blubi.com",
+      "sitzplatz": 8,
+      "betrieb-id": 12,
+      "Wohnort": "Schliessa 1, 9496 Balzers",
+      "absenzen": [
+        {
+          "entschuldigt": 0,
+          "unentschuldigt": 0
+        }
+      ]
+    },
+    {
+      "id": 53839,
+      "vorname": "Adrian",
+      "nachname": "Janka",
+      "mobile": "079 567 89 01",
+      "geburtsdatum": "10.01.2000",
+      "email": "adi.janka@blubi.com",
+      "sitzplatz": 7,
+      "betrieb-id": 11,
+      "Wohnort": "Pradamaz 3, 7134 Obersaxen",
+      "absenzen": [
+        {
+          "entschuldigt": 0,
+          "unentschuldigt": 0
+        }
+      ]
+    },
+    {
+      "id": 53827,
+      "vorname": "Levin",
+      "nachname": "Schnider",
+      "mobile": "079 890 12 34",
+      "geburtsdatum": "13.04.2000",
+      "email": "levinvals@blubi.com",
+      "sitzplatz": 6,
+      "betrieb-id": 10,
+      "Wohnort": "Calandastrasse 32, 7007 Chur",
+      "absenzen": [
+        {
+          "entschuldigt": 0,
+          "unentschuldigt": 0
+        }
+      ]
+    },
+    {
+      "id": 53710,
+      "vorname": "Ramon",
+      "nachname": "Gredig",
+      "mobile": "079 456 78 90",
+      "geburtsdatum": "23.07.2000",
+      "email": "gredig.igis@blubi.com",
+      "sitzplatz": 5,
+      "betrieb-id": 1,
+      "Wohnort": "Rosengartenweg 12, 7206 Igis",
+      "absenzen": [
+        {
+          "entschuldigt": 0,
+          "unentschuldigt": 0
+        }
+      ]
+    },
+    {
+      "id": 53625,
+      "vorname": "Marco",
+      "nachname": "Luzi",
+      "mobile": "079 678 90 12",
+      "geburtsdatum": "01.23.2000",
+      "email": "m-luzi@blubi.com",
+      "sitzplatz": 4,
+      "betrieb-id": 2,
+      "Wohnort": "Weststrasse 6, 7000 Chur",
+      "absenzen": [
+        {
+          "entschuldigt": 0,
+          "unentschuldigt": 0
+        }
+      ]
+    },
+    {
+      "id": 53568,
+      "vorname": "Attila",
+      "nachname": "Blattner",
+      "mobile": "079 234 56 78",
+      "geburtsdatum": "02.03.2000",
+      "email": "ablazen@blubi.com",
+      "sitzplatz": 3,
+      "betrieb-id": 9,
+      "Wohnort": "Nordstrasse 8, 7205 Zizers",
+      "absenzen": [
+        {
+          "entschuldigt": 0,
+          "unentschuldigt": 0
+        }
+      ]
+    },
+    {
+      "id": 53567,
+      "vorname": "Dario",
+      "nachname": "Fontana",
+      "mobile": "079 345 67 89",
+      "geburtsdatum": "11.12.2000",
+      "email": "fontana323@blubi.com",
+      "sitzplatz": 2,
+      "betrieb-id": 9,
+      "Wohnort": "Nordstrasse 8, 7205 Zizers",
+      "absenzen": [
+        {
+          "entschuldigt": 0,
+          "unentschuldigt": 0
+        }
+      ]
+    },
+    {
+      "id": 53565,
+      "vorname": "Timon",
+      "nachname": "Abplanalp",
+      "mobile": "079 123 45 56",
+      "geburtsdatum": "18.01.2000",
+      "email": "timon.abplanalp@blubi.com",
+      "sitzplatz": 1,
+      "betrieb-id": 9,
+      "Wohnort": "Nordstrasse 8, 7205 Zizers",
+      "absenzen": [
+        {
+          "entschuldigt": 0,
+          "unentschuldigt": 0
+        }
+      ]
+    },
+    {
+      "id": 61075,
+      "vorname": "Maurine",
+      "nachname": "Nievergelt",
+      "mobile": "079 789 01 23",
+      "geburtsdatum": "12.05.1999",
+      "email": "maurine.nievergelt@blubi.com",
+      "sitzplatz": 0,
+      "betrieb-id": 8,
+      "Wohnort": "Farbstrasse 7, 7220 Schiers",
+      "absenzen": [
+        {
+          "entschuldigt": 0,
+          "unentschuldigt": 0
+        }
+      ]
+    },
+    {
+      "id": 58413,
+      "vorname": "Brandon",
+      "nachname": "Wildhaber",
+      "mobile": "076 281 43 45",
+      "geburtsdatum": "02.04.1993",
+      "email": "wildhaberbrandon@gmail.com",
+      "sitzplatz": 8,
+      "betrieb-id": 7,
+      "Wohnort": "Landstrasse 11, 7304 Maienfeld",
+      "absenzen": [
+        {
+          "entschuldigt": 0,
+          "unentschuldigt": 0
+        }
+      ]
+    },
+    {
+      "id": 58114,
+      "vorname": "Julian",
+      "nachname": "Konrad",
+      "mobile": "078 900 45 89",
+      "geburtsdatum": "13.04.2001",
+      "email": "konrad.julian7@gmail.com",
+      "sitzplatz": 7,
+      "betrieb-id": 6,
+      "Wohnort": "Torkelgass 16a, 9494 Schaan",
+      "absenzen": [
+        {
+          "entschuldigt": 0,
+          "unentschuldigt": 0
+        }
+      ]
+    },
+    {
+      "id": 58113,
+      "vorname": "Dennis",
+      "nachname": "Sprenger",
+      "mobile": "078 832 96 94",
+      "geburtsdatum": "30.04.1994",
+      "email": "dennis.sprenger50@gmail.com",
+      "sitzplatz": 6,
+      "betrieb-id": 6,
+      "Wohnort": "In der Fina 12, 9494 Schaan",
+      "absenzen": [
+        {
+          "entschuldigt": 0,
+          "unentschuldigt": 0
+        }
+      ]
+    },
+    {
+      "id": 57844,
+      "vorname": "Mauro",
+      "nachname": "Kühnis",
+      "mobile": "076 429 72 62",
+      "geburtsdatum": "14.12.2001",
+      "email": "maurokuehnis@gmail.com",
+      "sitzplatz": 5,
+      "betrieb-id": 5,
+      "Wohnort": "Wingertstrasse 20, 7012 Felsberg",
+      "absenzen": [
+        {
+          "entschuldigt": 0,
+          "unentschuldigt": 0
+        }
+      ]
+    },
+    {
+      "id": 57237,
+      "vorname": "Ermin",
+      "nachname": "Zoronjic",
+      "mobile": "079 174 95 54",
+      "geburtsdatum": "30.05.2000",
+      "email": "SlineGraphics@hotmail.com",
+      "sitzplatz": 4,
+      "betrieb-id": 4,
+      "Wohnort": "Rheinstrasse 153, 7000 Chur",
+      "absenzen": [
+        {
+          "entschuldigt": 0,
+          "unentschuldigt": 0
+        }
+      ]
+    },
+    {
+      "id": 56979,
+      "vorname": "Laurin",
+      "nachname": "Wolf",
+      "mobile": "079 391 55 53",
+      "geburtsdatum": "05.06.2001",
+      "email": "laurin.wolf@bluewin.ch",
+      "sitzplatz": 3,
+      "betrieb-id": 3,
+      "Wohnort": "Altwingertweg 3, 7204 Untervaz",
+      "absenzen": [
+        {
+          "entschuldigt": 0,
+          "unentschuldigt": 0
+        }
+      ]
+    },
+    {
+      "id": 56769,
+      "vorname": "Andrina",
+      "nachname": "Marugg",
+      "mobile": "076 392 20 02",
+      "geburtsdatum": "01.07.2002",
+      "email": "a-marugg@bluewin.ch",
+      "sitzplatz": 2,
+      "betrieb-id": 2,
+      "Wohnort": "Präzerstrasse 16, 7424 Präz",
+      "absenzen": [
+        {
+          "entschuldigt": 0,
+          "unentschuldigt": 0
+        }
+      ]
+    },
+    {
+      "id": 57652,
+      "vorname": "Curdin",
+      "nachname": "Gabathuler",
+      "mobile": "079 781 39 18",
+      "geburtsdatum": "15.04.2001",
+      "email": "curdin.gabathuler@gmail.com",
+      "sitzplatz": 1,
+      "betrieb-id": 1,
+      "Wohnort": "Bahnhofstrasse 9, 8865 Bilten",
+      "absenzen": [
+        {
+          "entschuldigt": 0,
+          "unentschuldigt": 0
+        }
+      ]
+    },
+    {
+      "id": 57808,
+      "vorname": "Carla",
+      "nachname": "Widmer",
+      "mobile": "078 920 01 22",
+      "geburtsdatum": "10.05.2001",
+      "email": "carlabarbarawid@gmail.com",
+      "sitzplatz": 0,
+      "betrieb-id": 0,
+      "Wohnort": "Studaweg 10, 7430 Thusis",
+      "absenzen": [
+        {
+          "entschuldigt": 0,
+          "unentschuldigt": 0
+        }
+      ]
+    }
+  ],
+  "klassen": [
+    {
+      "klasse-id": 20206,
+      "klasse-name": "MEMA6",
+      "lernende": [
+        57808,
+        56769,
+        56979,
+        57237,
+        57652,
+        57844,
+        58113,
+        58114,
+        58413
+      ]
+    },
+    {
+      "klasse-id": 20208,
+      "klasse-name": "MEMA8",
+      "lernende": [
+        53565,
+        53567,
+        53568,
+        53625,
+        53710,
+        53827,
+        53839,
+        56743,
+        61075
+      ]
+    }
+  ],
+  "betrieb": [
+    {
+      "betrieb-id": 12,
+      "betrieb-name": "Sitewalk Est.",
+      "lehrlingsverantwortlicher": "Agnes Byland",
+      "lehrlingsverantwortlicher-mail": "agnes.g@sitewalk.li",
+      "strasse": "Im alten Riet 153",
+      "ort": "Schaan",
+      "plz": "9494"
+    },
+    {
+      "betrieb-id": 11,
+      "betrieb-name": "exigo AG",
+      "lehrlingsverantwortlicher": "Cesare Calonder",
+      "lehrlingsverantwortlicher-mail": "c.calonder@exigo.ch",
+      "strasse": "Sägenstrasse 4",
+      "ort": "Chur",
+      "plz": "7000"
+    },
+    {
+      "betrieb-id": 10,
+      "betrieb-name": "Somedia Production AG",
+      "lehrlingsverantwortlicher": "Senna Schweizer",
+      "lehrlingsverantwortlicher-mail": "sschweizer@somedia.ch",
+      "strasse": "Sommeraustrasse 32",
+      "ort": "Chur",
+      "plz": "7007"
+    },
+    {
+      "betrieb-id": 9,
+      "betrieb-name": "Swisscom AG",
+      "lehrlingsverantwortlicher": "Margon Frei",
+      "lehrlingsverantwortlicher-mail": "margot.frei@swisscom.ch",
+      "strasse": "Gäuggelistrasse 7",
+      "ort": "Chur",
+      "plz": "7000"
+    },
+    {
+      "betrieb-id": 8,
+      "betrieb-name": "Vorcon grafic & design AG",
+      "lehrlingsverantwortlicher": "Vreni Valser",
+      "lehrlingsverantwortlicher-mail": "v.v@vorcon.ch",
+      "strasse": "Sägenstrasse 4",
+      "ort": "Chur",
+      "plz": "7000"
+    },
+    {
+      "betrieb-id": 7,
+      "betrieb-name": "Atlantiq AG",
+      "lehrlingsverantwortlicher": "David Weidtke",
+      "lehrlingsverantwortlicher-mail": "weidtke@atlantiq.ch",
+      "strasse": "Kasernenstrasse 36",
+      "ort": "Chur",
+      "plz": "7000"
+    },
+    {
+      "betrieb-id": 6,
+      "betrieb-name": "Graubündner Kantonalbank",
+      "lehrlingsverantwortlicher": "Peter Philipp",
+      "lehrlingsverantwortlicher-mail": "pp@medien.li",
+      "strasse": "Austrasse 81",
+      "ort": "Vaduz",
+      "plz": "9490"
+    },
+    {
+      "betrieb-id": 5,
+      "betrieb-name": "Graubündner Kantonalbank",
+      "lehrlingsverantwortlicher": "Mario Götz",
+      "lehrlingsverantwortlicher-mail": "mario.goetz@gkb.ch",
+      "strasse": "Poststrasse 2",
+      "ort": "Chur",
+      "plz": "7000"
+    },
+    {
+      "betrieb-id": 4,
+      "betrieb-name": "Digitag AG",
+      "lehrlingsverantwortlicher": "Ivan Grischott",
+      "lehrlingsverantwortlicher-mail": "i.grischott@digitag.ch",
+      "strasse": "Rüfiweg 4",
+      "ort": "Zizers",
+      "plz": "7205"
+    },
+    {
+      "betrieb-id": 3,
+      "betrieb-name": "Clus AG",
+      "lehrlingsverantwortlicher": "Kevin Walker",
+      "lehrlingsverantwortlicher-mail": "kw@clus.ch",
+      "strasse": "Tittwiesenstrasse 21",
+      "ort": "Chur",
+      "plz": "7000"
+    },
+    {
+      "betrieb-id": 2,
+      "betrieb-name": "EMS Chemie AG",
+      "lehrlingsverantwortlicher": "Tamara Büchel",
+      "lehrlingsverantwortlicher-mail": "tamara.buechel@emsservices.ch",
+      "strasse": "Via Innovativa 1",
+      "ort": "Domat/Ems",
+      "plz": "7013"
+    },
+    {
+      "betrieb-id": 1,
+      "betrieb-name": "Miux AG",
+      "lehrlingsverantwortlicher": "Andrew Jelley",
+      "lehrlingsverantwortlicher-mail": "aj@miux.ch",
+      "strasse": "Kirchgasse 4",
+      "ort": "Chur",
+      "plz": "7000"
+    },
+    {
+      "betrieb-id": 0,
+      "betrieb-name": "Würth ITensis AG",
+      "lehrlingsverantwortlicher": "Samuel Marfurt",
+      "lehrlingsverantwortlicher-mail": "samuel.marfurt@wuerth-itensis.com",
+      "strasse": "Aspermontstrasse 1",
+      "ort": "Chur",
+      "plz": "7000"
+    }
+  ]
+}

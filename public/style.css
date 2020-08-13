@@ -55,12 +55,20 @@ body{
     height: 650px;
 }
 
+.places{
+    fill: #FAF2EF;
+    cursor: pointer;
+}
+.places:hover{
+    fill: #fff;
+}
 .infoPanel{
     background-color: #E1D2C9;
     height: 88%;
     width: 30vw;
     float: right;
-    margin-top: -799px;
+    margin-top: -806px;
+    margin-right: 10px;
 }
 .upperPanel{
     margin-left: 3vw;
