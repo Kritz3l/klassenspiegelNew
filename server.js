@@ -24,3 +24,8 @@ app.get('/klasse', (req, res) => {
     res.send(klasse);
     res.end();
 });
+app.get('/betrieb', (req, res) => {
+    let betriebe = db.getBetriebe();
+    res.send(betriebe);
+    res.end()
+});

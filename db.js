@@ -50,5 +50,10 @@ module.exports = {
     },
     getClass: (id) =>{
         return db.get('klassen')
+            .value()
+    },
+    getBetriebe: (id) => {
+        return db.get('betrieb')
+            .value()
     }
 };

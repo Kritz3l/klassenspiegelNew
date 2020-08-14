@@ -9,7 +9,7 @@
       "email": "melvin.csc@blubi.com",
       "sitzplatz": 8,
       "betrieb-id": 12,
-      "Wohnort": "Schliessa 1, 9496 Balzers",
+      "wohnort": "Schliessa 1, 9496 Balzers",
       "absenzen": [
         {
           "entschuldigt": 0,
@@ -26,7 +26,7 @@
       "email": "adi.janka@blubi.com",
       "sitzplatz": 7,
       "betrieb-id": 11,
-      "Wohnort": "Pradamaz 3, 7134 Obersaxen",
+      "wohnort": "Pradamaz 3, 7134 Obersaxen",
       "absenzen": [
         {
           "entschuldigt": 0,
@@ -43,7 +43,7 @@
       "email": "levinvals@blubi.com",
       "sitzplatz": 6,
       "betrieb-id": 10,
-      "Wohnort": "Calandastrasse 32, 7007 Chur",
+      "wohnort": "Calandastrasse 32, 7007 Chur",
       "absenzen": [
         {
           "entschuldigt": 0,
@@ -60,7 +60,7 @@
       "email": "gredig.igis@blubi.com",
       "sitzplatz": 5,
       "betrieb-id": 1,
-      "Wohnort": "Rosengartenweg 12, 7206 Igis",
+      "wohnort": "Rosengartenweg 12, 7206 Igis",
       "absenzen": [
         {
           "entschuldigt": 0,
@@ -77,7 +77,7 @@
       "email": "m-luzi@blubi.com",
       "sitzplatz": 4,
       "betrieb-id": 2,
-      "Wohnort": "Weststrasse 6, 7000 Chur",
+      "wohnort": "Weststrasse 6, 7000 Chur",
       "absenzen": [
         {
           "entschuldigt": 0,
@@ -94,7 +94,7 @@
       "email": "ablazen@blubi.com",
       "sitzplatz": 3,
       "betrieb-id": 9,
-      "Wohnort": "Nordstrasse 8, 7205 Zizers",
+      "wohnort": "Nordstrasse 8, 7205 Zizers",
       "absenzen": [
         {
           "entschuldigt": 0,
@@ -111,7 +111,7 @@
       "email": "fontana323@blubi.com",
       "sitzplatz": 2,
       "betrieb-id": 9,
-      "Wohnort": "Nordstrasse 8, 7205 Zizers",
+      "wohnort": "Nordstrasse 8, 7205 Zizers",
       "absenzen": [
         {
           "entschuldigt": 0,
@@ -128,7 +128,7 @@
       "email": "timon.abplanalp@blubi.com",
       "sitzplatz": 1,
       "betrieb-id": 9,
-      "Wohnort": "Nordstrasse 8, 7205 Zizers",
+      "wohnort": "Nordstrasse 8, 7205 Zizers",
       "absenzen": [
         {
           "entschuldigt": 0,
@@ -145,7 +145,7 @@
       "email": "maurine.nievergelt@blubi.com",
       "sitzplatz": 0,
       "betrieb-id": 8,
-      "Wohnort": "Farbstrasse 7, 7220 Schiers",
+      "wohnort": "Farbstrasse 7, 7220 Schiers",
       "absenzen": [
         {
           "entschuldigt": 0,
@@ -162,7 +162,7 @@
       "email": "wildhaberbrandon@gmail.com",
       "sitzplatz": 8,
       "betrieb-id": 7,
-      "Wohnort": "Landstrasse 11, 7304 Maienfeld",
+      "wohnort": "Landstrasse 11, 7304 Maienfeld",
       "absenzen": [
         {
           "entschuldigt": 0,
@@ -179,7 +179,7 @@
       "email": "konrad.julian7@gmail.com",
       "sitzplatz": 7,
       "betrieb-id": 6,
-      "Wohnort": "Torkelgass 16a, 9494 Schaan",
+      "wohnort": "Torkelgass 16a, 9494 Schaan",
       "absenzen": [
         {
           "entschuldigt": 0,
@@ -196,7 +196,7 @@
       "email": "dennis.sprenger50@gmail.com",
       "sitzplatz": 6,
       "betrieb-id": 6,
-      "Wohnort": "In der Fina 12, 9494 Schaan",
+      "wohnort": "In der Fina 12, 9494 Schaan",
       "absenzen": [
         {
           "entschuldigt": 0,
@@ -213,7 +213,7 @@
       "email": "maurokuehnis@gmail.com",
       "sitzplatz": 5,
       "betrieb-id": 5,
-      "Wohnort": "Wingertstrasse 20, 7012 Felsberg",
+      "wohnort": "Wingertstrasse 20, 7012 Felsberg",
       "absenzen": [
         {
           "entschuldigt": 0,
@@ -230,7 +230,7 @@
       "email": "SlineGraphics@hotmail.com",
       "sitzplatz": 4,
       "betrieb-id": 4,
-      "Wohnort": "Rheinstrasse 153, 7000 Chur",
+      "wohnort": "Rheinstrasse 153, 7000 Chur",
       "absenzen": [
         {
           "entschuldigt": 0,
@@ -247,7 +247,7 @@
       "email": "laurin.wolf@bluewin.ch",
       "sitzplatz": 3,
       "betrieb-id": 3,
-      "Wohnort": "Altwingertweg 3, 7204 Untervaz",
+      "wohnort": "Altwingertweg 3, 7204 Untervaz",
       "absenzen": [
         {
           "entschuldigt": 0,
@@ -264,7 +264,7 @@
       "email": "a-marugg@bluewin.ch",
       "sitzplatz": 2,
       "betrieb-id": 2,
-      "Wohnort": "Präzerstrasse 16, 7424 Präz",
+      "wohnort": "Präzerstrasse 16, 7424 Präz",
       "absenzen": [
         {
           "entschuldigt": 0,
@@ -281,7 +281,7 @@
       "email": "curdin.gabathuler@gmail.com",
       "sitzplatz": 1,
       "betrieb-id": 1,
-      "Wohnort": "Bahnhofstrasse 9, 8865 Bilten",
+      "wohnort": "Bahnhofstrasse 9, 8865 Bilten",
       "absenzen": [
         {
           "entschuldigt": 0,
@@ -298,7 +298,7 @@
       "email": "carlabarbarawid@gmail.com",
       "sitzplatz": 0,
       "betrieb-id": 0,
-      "Wohnort": "Studaweg 10, 7430 Thusis",
+      "wohnort": "Studaweg 10, 7430 Thusis",
       "absenzen": [
         {
           "entschuldigt": 0,

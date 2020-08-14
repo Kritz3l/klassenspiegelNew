@@ -17,31 +17,76 @@ getUser = async (placeId) => {
         method: 'GET'
     });
     let lernende = await result.json();
+
     let data = await fetch('/klasse', {
         method: 'GET'
     });
     let klasse = await data.json();
 
+    let betriebeData = await fetch('/betrieb', {
+        method: 'GET'
+    });
+    let betriebe = await betriebeData.json();
+
     let path = window.location.pathname;
     let page = path.split("/").pop();
 
     console.log(lernende);
+    console.log(betriebe);
 
-    if(page === 'mema6a.html'){
-            let students = klasse[0]['lernende'];
-            console.log(students);
-
-            for(key in lernende){
-                //if(lernende[key]['id'] === students)
-                console.log(lernende[key]['id'])
+    if (page === 'mema6a.html') {
+        let array1 = klasse[0]['lernende'];
+        for (let i = 0; i < lernende.length; i++) {
+            if (array1.indexOf(lernende[i]['id']) > -1) {
+                if (lernende[i]['sitzplatz'] === placeId) {
+                    let auswahl = lernende[i]['id'];
+                    let lernender = lernende[i];
+                    console.log('schüler ' + auswahl + ' sitzt am platz ' + placeId);
+                    document.getElementById('studentName').innerHTML = lernender['vorname'] + ' ' + lernender['nachname'];
+                    document.getElementById('studentId').innerHTML = lernender['id'];
+                    document.getElementById('birthday').innerHTML = lernender['geburtsdatum'];
+                    document.getElementById('address').innerHTML = lernender['wohnort'];
+                    document.getElementById('mobile').innerHTML = lernender['mobile'];
+                    document.getElementById('mail').innerHTML = lernender['email'];
+                    let betriebId = lernender['betrieb-id'];
+                    for(let a = 0; a < betriebe.length; a++){
+                        if(betriebId === betriebe[a]['betrieb-id']){
+                            let betrieb = betriebe[a];
+                            console.log(betriebe[a]['betrieb-name']);
+                            document.getElementById('company').innerHTML = betrieb['betrieb-name'];
+                            document.getElementById('llvName').innerHTML = betrieb['lehrlingsverantwortlicher'];
+                            document.getElementById('llvMail').innerHTML = betrieb['lehrlingsverantwortlicher-mail']
+                        }
+                    }
+                }
             }
-
-            document.getElementById('studentName').innerHTML = "New text!";
-            //console.log(klasse[0]['lernende'][key])
-
+        }
     } else {
-        for(key in klasse[1]['lernende']) {
-            console.log(klasse[1]['lernende'][key])
+        let array1 = klasse[1]['lernende'];
+        for (let i = 0; i < lernende.length; i++) {
+            if (array1.indexOf(lernende[i]['id']) > -1) {
+                if (lernende[i]['sitzplatz'] === placeId) {
+                    let auswahl = lernende[i]['id'];
+                    let lernender = lernende[i];
+                    console.log('schüler ' + auswahl + ' sitzt am platz ' + placeId);
+                    document.getElementById('studentName').innerHTML = lernender['vorname'] + ' ' + lernender['nachname'];
+                    document.getElementById('studentId').innerHTML = lernender['id'];
+                    document.getElementById('birthday').innerHTML = lernender['geburtsdatum'];
+                    document.getElementById('address').innerHTML = lernender['wohnort'];
+                    document.getElementById('mobile').innerHTML = lernender['mobile'];
+                    document.getElementById('mail').innerHTML = lernender['email'];
+                    let betriebId = lernender['betrieb-id'];
+                    for(let a = 0; a < betriebe.length; a++){
+                        if(betriebId === betriebe[a]['betrieb-id']){
+                            let betrieb = betriebe[a];
+                            console.log(betriebe[a]['betrieb-name']);
+                            document.getElementById('company').innerHTML = betrieb['betrieb-name'];
+                            document.getElementById('llvName').innerHTML = betrieb['lehrlingsverantwortlicher'];
+                            document.getElementById('llvMail').innerHTML = betrieb['lehrlingsverantwortlicher-mail']
+                        }
+                    }
+                }
+            }
         }
     }
 

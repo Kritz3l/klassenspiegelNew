@@ -98,6 +98,7 @@ body{
     font-style: italic;
     margin: 2vw auto 1vw auto;
     outline: none;
+    cursor: pointer;
 }
 .zsmfsAbsenzen{
     font-family: 'Red Hat Display', sans-serif;
