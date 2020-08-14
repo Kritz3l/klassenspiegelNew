@@ -51,11 +51,11 @@
     <div class="upperPanel">
         <p class="studentName" id="studentName">Vorname Name</p>
         <p class="studentId" id="studentId">Studenten Id</p>
-        <button class="btnAbsenz" onclick="absenzErfassen()">Absenzmanager</button>
+        <button class="btnAbsenz" id="btnAbsenz" onclick="absenzErfassen()">Absenzmanager</button>
         <p class="zsmfsAbsenzen">Entschuldigt: 0</p>
         <p class="zsmfsAbsenzen">Unentschuldigt: 0</p>
     </div>
-    <div class="lowerPanel">
+    <div class="lowerPanel" id="lowerPanel">
         <div class="innerPanel">
             <p class="lPTitle">Geburtsdatum</p>
             <p class="lPInfo" id="birthday"></p>
@@ -77,7 +77,30 @@
             <p class="lPInfo" id="llvMail"></p>
         </div>
     </div>
+    <div class="AbsenzenUpperPanel" id="absenzenUpperPanel">
+        <p class="addAbsenz">Absenz hinzufügen</p>
+        <p class="addAbsenz_low">Anzahl der Lektionen</p>
+        <input type="text" id="anzLek+" name="anzLek" class="anzLek">
+
+        <p class="addAbsenz_low">Art der Absenz</p>
+        <!--<input type="text" id="artDAbsnz+" name="artDAbsnz" class="artAbsnz">-->
+        <select name="artDAbsenz" id="artDAbsenz" class="artAbsnz">
+            <option value="entschuldigt">Entschuldigt</option>
+            <option value="unentschuldigt">Unentschuldigt</option>
+        </select>
+    </div>
+    <div class="AbsenzenLowerPanel" id="absenzenLowerPanel">
+        <p class="addAbsenz">Absenz löschen</p>
+        <p class="addAbsenz_low">Anzahl der Lektionen</p>
+        <input type="text" id="anzLek-" name="anzLek" class="anzLek">
+
+        <p class="addAbsenz_low">Art der Absenz</p>
+        <!--<input type="text" id="artDAbsnz-" name="artDAbsnz" class="artAbsnz">-->
+        <select name="artDAbsnz" id="artDAbsnz" class="artAbsnz">
+            <option value="entschuldigt">Entschuldigt</option>
+            <option value="unentschuldigt">Unentschuldigt</option>
+        </select>
+    </div>
 </div>
-<script src="https://cdn.jsdelivr.net/npm/lodash@4.17.20/lodash.min.js"></script>
 </body>
 </html>

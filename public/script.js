@@ -8,10 +8,19 @@ openMenu6 = () => {
 };
 
 absenzErfassen = () => {
-    alert('button clicked')
+    console.log('button clicked');
+    document.getElementById('absenzenUpperPanel').style.zIndex = '1';
+    document.getElementById('absenzenLowerPanel').style.zIndex = '1';
+    document.getElementById('lowerPanel').style.zIndex = '-1';
 };
 
 getUser = async (placeId) => {
+
+    document.getElementById('absenzenUpperPanel').style.zIndex = '-1';
+    document.getElementById('absenzenLowerPanel').style.zIndex = '-1';
+    document.getElementById('lowerPanel').style.zIndex = '1';
+    document.getElementById('btnAbsenz').style.display = 'initial';
+
     console.log('button clicked from place ' + placeId);
     let result = await fetch('/lernende', {
         method: 'GET'
@@ -39,11 +48,11 @@ getUser = async (placeId) => {
         for (let i = 0; i < lernende.length; i++) {
             if (array1.indexOf(lernende[i]['id']) > -1) {
                 if (lernende[i]['sitzplatz'] === placeId) {
-                    let auswahl = lernende[i]['id'];
                     let lernender = lernende[i];
-                    console.log('schüler ' + auswahl + ' sitzt am platz ' + placeId);
                     document.getElementById('studentName').innerHTML = lernender['vorname'] + ' ' + lernender['nachname'];
                     document.getElementById('studentId').innerHTML = lernender['id'];
+                    document.getElementById('absEnt').innerHTML = 'Entschuldigt: ' + lernender['absenzen'][0]['entschuldigt'];
+                    document.getElementById('absUnEnt').innerHTML = 'Unentschuldigt: ' + lernender['absenzen'][0]['unentschuldigt'];
                     document.getElementById('birthday').innerHTML = lernender['geburtsdatum'];
                     document.getElementById('address').innerHTML = lernender['wohnort'];
                     document.getElementById('mobile').innerHTML = lernender['mobile'];
@@ -52,7 +61,6 @@ getUser = async (placeId) => {
                     for(let a = 0; a < betriebe.length; a++){
                         if(betriebId === betriebe[a]['betrieb-id']){
                             let betrieb = betriebe[a];
-                            console.log(betriebe[a]['betrieb-name']);
                             document.getElementById('company').innerHTML = betrieb['betrieb-name'];
                             document.getElementById('llvName').innerHTML = betrieb['lehrlingsverantwortlicher'];
                             document.getElementById('llvMail').innerHTML = betrieb['lehrlingsverantwortlicher-mail']
@@ -66,9 +74,7 @@ getUser = async (placeId) => {
         for (let i = 0; i < lernende.length; i++) {
             if (array1.indexOf(lernende[i]['id']) > -1) {
                 if (lernende[i]['sitzplatz'] === placeId) {
-                    let auswahl = lernende[i]['id'];
                     let lernender = lernende[i];
-                    console.log('schüler ' + auswahl + ' sitzt am platz ' + placeId);
                     document.getElementById('studentName').innerHTML = lernender['vorname'] + ' ' + lernender['nachname'];
                     document.getElementById('studentId').innerHTML = lernender['id'];
                     document.getElementById('birthday').innerHTML = lernender['geburtsdatum'];
@@ -79,7 +85,6 @@ getUser = async (placeId) => {
                     for(let a = 0; a < betriebe.length; a++){
                         if(betriebId === betriebe[a]['betrieb-id']){
                             let betrieb = betriebe[a];
-                            console.log(betriebe[a]['betrieb-name']);
                             document.getElementById('company').innerHTML = betrieb['betrieb-name'];
                             document.getElementById('llvName').innerHTML = betrieb['lehrlingsverantwortlicher'];
                             document.getElementById('llvMail').innerHTML = betrieb['lehrlingsverantwortlicher-mail']
@@ -89,20 +94,4 @@ getUser = async (placeId) => {
             }
         }
     }
-
-    //console.log(klasse, lernende)
-
-    /* if(id === placeId){
-        console.log('der lernende sitzt auf platz ' + placeId)
-    }*/
-
-    /*let lernende = fetch('/lernende', {
-        method: 'GET'
-    }).then(result => {
-        return result.json();
-    }).then(json => {
-        console.log("json result", json)
-    }).catch(error => {
-        console.log('Error: ' + error)
-    });*/
 };
