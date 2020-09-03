@@ -29,3 +29,6 @@ app.get('/betrieb', (req, res) => {
     res.send(betriebe);
     res.end()
 });
+app.post('/write', (req, res) =>  {
+
+});

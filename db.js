@@ -55,5 +55,8 @@ module.exports = {
     getBetriebe: (id) => {
         return db.get('betrieb')
             .value()
+    },
+    write: (id) => {
+        db.set('')
     }
 };

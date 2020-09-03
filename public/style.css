@@ -171,3 +171,14 @@ body{
     border: none;
     padding: .5vh;
 }
+.buttonAbsenz{
+    float: right;
+    margin-right: 3vh;
+    font-family: "Red Hat Display", sans-serif;
+    font-weight: 500;
+    border: none;
+    background: #fff;
+    color: #494949;
+    outline: none;
+    cursor: pointer;
+}

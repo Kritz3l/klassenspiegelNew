@@ -48,6 +48,7 @@
         <circle onclick="getUser(15)" class="places" id="15" cx="661" cy="489" r="17"></circle>
     </svg>
 </div>
+<input type="text" id="test">
 <div class="infoPanel" id="infoPanel">
     <div class="upperPanel">
         <p class="studentName" id="studentName">Vorname Name</p>
@@ -81,7 +82,7 @@
     <div class="AbsenzenUpperPanel" id="absenzenUpperPanel">
         <p class="addAbsenz">Absenz hinzufügen</p>
         <p class="addAbsenz_low">Anzahl der Lektionen</p>
-        <input type="text" id="anzLek+" name="anzLek" class="anzLek">
+        <input type="text" id="anzLekPlus" name="anzLek" class="anzLek">
 
         <p class="addAbsenz_low">Art der Absenz</p>
         <!--<input type="text" id="artDAbsnz+" name="artDAbsnz" class="artAbsnz">-->
@@ -89,11 +90,12 @@
             <option value="entschuldigt">Entschuldigt</option>
             <option value="unentschuldigt">Unentschuldigt</option>
         </select>
+        <button class="buttonAbsenz" id="btnAddAbs" onclick="addAbsenz()">Erfassen</button>
     </div>
     <div class="AbsenzenLowerPanel" id="absenzenLowerPanel">
         <p class="addAbsenz">Absenz löschen</p>
         <p class="addAbsenz_low">Anzahl der Lektionen</p>
-        <input type="text" id="anzLek-" name="anzLek" class="anzLek">
+        <input type="text" id="anzLekMinus" name="anzLek" class="anzLek">
 
         <p class="addAbsenz_low">Art der Absenz</p>
         <!--<input type="text" id="artDAbsnz-" name="artDAbsnz" class="artAbsnz">-->
@@ -101,6 +103,7 @@
             <option value="entschuldigt">Entschuldigt</option>
             <option value="unentschuldigt">Unentschuldigt</option>
         </select>
+        <button class="buttonAbsenz" id="btnDelAbs" onclick="deleteAbsenz()">Erfassen</button>
     </div>
 </div>
 <div class="menuBar" id="menuBar">

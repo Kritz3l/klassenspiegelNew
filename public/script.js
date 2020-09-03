@@ -12,6 +12,56 @@ absenzErfassen = () => {
     document.getElementById('absenzenUpperPanel').style.zIndex = '1';
     document.getElementById('absenzenLowerPanel').style.zIndex = '1';
     document.getElementById('lowerPanel').style.zIndex = '-1';
+    /*let button = document.getElementById('btnAbsenz');
+    button.innerHTML = 'Userdaten';*/
+
+    /*    button.onclick = () => {
+        if(button.innerHTML === 'Absenzenmanager'){
+            button.innerHTML = 'Userdaten';
+            document.getElementById('absenzenUpperPanel').style.zIndex = '-1';
+            document.getElementById('absenzenLowerPanel').style.zIndex = '-1';
+            document.getElementById('lowerPanel').style.zIndex = '1';
+            document.getElementById('btnAbsenz').style.display = 'initial';
+        } else {
+            button.innerHTML = 'Absenzenmanager'
+            document.getElementById('absenzenUpperPanel').style.zIndex = '1';
+            document.getElementById('absenzenLowerPanel').style.zIndex = '1';
+            document.getElementById('lowerPanel').style.zIndex = '-1';
+        }
+
+        }*/
+};
+
+addAbsenz = () => {
+    let anzLek = document.getElementById('anzLekPlus');
+    if (isNaN(anzLek.value)) {
+        alert('Input must be a number!');
+        anzLek.value = '';
+    } else {
+        console.log(anzLek.value);
+        let studentId = document.getElementById('studentId').innerHTML;
+        let data = [anzLek.value, studentId];
+        //todo route to send data to lowdb
+        //  ./write
+        /*request.open('POST', '/write');
+        request.send(data)*/
+    }
+};
+
+deleteAbsenz = () => {
+    let anzLek = document.getElementById("anzLekMinus");
+    if (isNaN(anzLek.value)) {
+        alert('Input must be a number!');
+        anzLek.value = '';
+    } else {
+        console.log(anzLek.value);
+        let studentId = document.getElementById('studentId').innerHTML;
+        let data = [anzLek.value, studentId];
+        //todo route to send data to lowdb
+        //  ./write
+        /*request.open('POST', '/write');
+        request.send(data)*/
+    }
 };
 
 getUser = async (placeId) => {
@@ -58,8 +108,8 @@ getUser = async (placeId) => {
                     document.getElementById('mobile').innerHTML = lernender['mobile'];
                     document.getElementById('mail').innerHTML = lernender['email'];
                     let betriebId = lernender['betrieb-id'];
-                    for(let a = 0; a < betriebe.length; a++){
-                        if(betriebId === betriebe[a]['betrieb-id']){
+                    for (let a = 0; a < betriebe.length; a++) {
+                        if (betriebId === betriebe[a]['betrieb-id']) {
                             let betrieb = betriebe[a];
                             document.getElementById('company').innerHTML = betrieb['betrieb-name'];
                             document.getElementById('llvName').innerHTML = betrieb['lehrlingsverantwortlicher'];
@@ -82,8 +132,8 @@ getUser = async (placeId) => {
                     document.getElementById('mobile').innerHTML = lernender['mobile'];
                     document.getElementById('mail').innerHTML = lernender['email'];
                     let betriebId = lernender['betrieb-id'];
-                    for(let a = 0; a < betriebe.length; a++){
-                        if(betriebId === betriebe[a]['betrieb-id']){
+                    for (let a = 0; a < betriebe.length; a++) {
+                        if (betriebId === betriebe[a]['betrieb-id']) {
                             let betrieb = betriebe[a];
                             document.getElementById('company').innerHTML = betrieb['betrieb-name'];
                             document.getElementById('llvName').innerHTML = betrieb['lehrlingsverantwortlicher'];
